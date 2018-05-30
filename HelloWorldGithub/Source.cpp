@@ -9,12 +9,21 @@ int Register()
 	std::cout << "Di tu password ...";
 	std::getline(std::cin, userpwd);
 
-	std::cout << "Y aquí Gerard ha programado el registro\n";
+	std::cout << "Y aquï¿½ Gerard ha programado el registro\n";
 
 	return 0;
 
 }
 
+int Login()
+{
+	std::cout << "and finally, Joan programa el login\n";
+	return 0;
+}
+void ChangeMap()
+{
+	std::cout << "En este funcion JC hace cosas del mapa\n";
+}
 
 int main()
 {
